@@ -1,0 +1,26 @@
+.Product:hover .productdetails{
+display: block;
+
+
+
+}
+.Product img{
+    border-radius: 25px;
+    box-shadow: #333 6px 10px 15px 2px;
+}
+
+.productdetails{
+text-align: center;
+margin-top: 10%;
+display: none;
+
+}
+body{
+    display: flex;
+    justify-content: space-around;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

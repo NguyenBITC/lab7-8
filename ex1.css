@@ -1,0 +1,12 @@
+p{
+    background-color: yellow;
+    width: fit-content;
+}
+.red{
+    color: red;
+    
+}
+.black{
+    color: white;
+    background-color: black;
+}

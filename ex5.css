@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#wrap {
+    width: 900px;
+    margin: auto;
+}
+
+.logo {
+    padding: 20px 0 0 50px;
+}
+
+header {
+    height: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    background-image: url(https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/09/hinh-nen-hoa-tulip.jpg);
+}
+
+#menu_top {
+    margin-top: 4px;
+    margin-left: 30px;
+    background-color: #fff;
+    opacity: 0.6;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.level1 {
+    clear: both;
+    list-style-type: none;
+    padding-top: 12px;
+    opacity: 1.0;
+    color: black;
+    position: relative;
+    margin-left: 20%;
+}
+
+.level1 li {
+    display: inline;
+    float: left;
+    padding: 0 20px 0 0;
+    height: 27px;
+    font-weight: bold;
+
+}
+
+.level1 li a,
+.level1 li a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+.level1 li a:hover {
+    color: green;
+}
+
+.level2 {
+    display: none;
+    padding: 0;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.level1 li:hover>.level2 {
+    display: block;
+}
+
+.level2 li {
+    float: none;
+    position: relative;
+    background-color: #ccc;
+    display: block;
+    padding: 10px;
+}
+
+.level2 li:hover {
+    background-color: #cc0;
+}
+
+.welcome {
+    text-align: center;
+    padding: 8px;
+    border: dotted 2px #9c0;
+}
+
+.container {
+    width: 900px;
+    background-repeat: repeat-y;
+}
+
+.container .left {
+    width: 500px;
+    float: left;
+}
+
+.title {
+    color: #B81F22;
+    font-size: 17px;
+    float: left;
+    margin: 10px 10px 10px 15px;
+    text-align: center;
+}
+
+.product {
+    border-bottom: dashed 1px #ccc;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.product .img {
+    clear: both;
+    float: left;
+    margin-left: 20px;
+}
+
+.product .description {
+    float: right;
+    width: 295px;
+    padding: 5px 15px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+}
+
+.product .name {
+    color: #B81F22;
+    font-weight: bold;
+}
+
+.product .about {
+    text-align: justify;
+}
+#center_content #right {
+    width: 380px;
+    min-height: 200px;
+    float: right;
+    align:top;
+    }
+    #promotion {
+    float: left;
+    width: 170px;
+    margin-top: -36rem;
+    }
+    .product_small {
+        margin-bottom: 15px;
+    }
+    
+    .product_small.name {
+    text-align: center;
+    color: #666;
+    }
+    .product_small .img {
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    text-align: center;
+    padding: 10px;
+    width: 132px;
+    float: left;
+    }
